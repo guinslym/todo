@@ -4,7 +4,7 @@ import { toggleAllTodos, clearCompletedTodos } from '../lib/actions';
 import List from '../components/List';
 
 const mapStateToProps = ({ filter, todos }) => ({
-  todos: todos.filter(
+  todos: todos.present.filter(
     todo =>
       filter === 'ALL' ||
       (todo.completed && filter === 'COMPLETED') ||

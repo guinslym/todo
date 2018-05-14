@@ -12,6 +12,7 @@ import Header from './Header';
 import FilterTabs from '../containers/FilterTabs';
 import InputBar from '../containers/InputBar';
 import TodoList from '../containers/TodoList';
+import UndoRedo from '../containers/UndoRedo';
 
 const theme = createMuiTheme({
   palette: {
@@ -35,6 +36,7 @@ function TodoApp(props) {
     <MuiThemeProvider theme={theme}>
       <CssBaseline />
       <Header />
+      <UndoRedo />
       <Paper className={classes.paper}>
         <FilterTabs />
         <InputBar />

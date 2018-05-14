@@ -1,4 +1,5 @@
 import { combineReducers } from 'redux';
+import undoable from 'redux-undo';
 
 const Filters = {
   ALL: 'ALL',
@@ -50,7 +51,9 @@ function filter(state = Filters.ALL, action) {
   return state;
 }
 
+const undoableTodos = undoable(todos);
+
 export default combineReducers({
-  todos,
+  todos: undoableTodos,
   filter
 });
