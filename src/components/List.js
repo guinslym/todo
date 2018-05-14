@@ -24,6 +24,7 @@ function ButtonGroup({ classes, disabled, toggleAll, clear }) {
   return (
     <div className={classes.buttonGroup}>
       <Button
+        size="small"
         disabled={disabled}
         className={classes.button}
         color="primary"
@@ -32,6 +33,7 @@ function ButtonGroup({ classes, disabled, toggleAll, clear }) {
         Check All
       </Button>
       <Button
+        size="small"
         disabled={disabled}
         className={classes.button}
         color="primary"
@@ -40,6 +42,7 @@ function ButtonGroup({ classes, disabled, toggleAll, clear }) {
         Uncheck All
       </Button>
       <Button
+        size="small"
         disabled={disabled}
         className={classes.button}
         color="primary"

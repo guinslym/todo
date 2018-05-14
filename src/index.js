@@ -5,6 +5,7 @@ import { createStore } from 'redux';
 
 import rootReducer from './lib/reducers';
 import { loadState, saveState } from './lib/localStorage';
+import registerServiceWorker from './lib/registerServiceWorker';
 import App from './components/App';
 
 import './index.css';
@@ -30,3 +31,5 @@ render(
   </Provider>,
   document.getElementById('root')
 );
+
+registerServiceWorker();
