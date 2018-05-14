@@ -1,4 +1,5 @@
-# Material Todo
+<h1 align="center">Material Todo</h1>
+
 
 <p align="center">
  <a href="https://github.com/jorgegonzalez/todo/releases/latest">
@@ -12,13 +13,17 @@
   </a>
 </p>
 
+<p align="center">
+ <a href="https://jorgegonzalez.io/todo">Launch App</a>
+</p>
+
 ## Features
 
 * ✨ Create, update, and delete todo items, and filter by their completion status
 * 🚀 Todos are backed up to your browser's [`localStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
 * 🔥 Bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app)
 * 💋 Styled with [Material-UI](https://material-ui-next.com/)
-* 🎫 Deployed to [GitHub pages](https://pages.github.com/)
+* 🎫 Deployed to [GitHub pages](https://pages.github.com/) at [https://jorgegonzalez.io/todo](https://jorgegonzalez.io/todo)
 
 ## Build
 
@@ -28,7 +33,7 @@ _Requires [Node](https://nodejs.org/) v6.0 or greater_
 * Navigate into the newly created directory: `cd todo-app`
 * Run `npm install`
 * Run `npm start`
-* Open [http://localhost:3000](http://localhost:3000) in your browser.
+* Open [http://localhost:3000](http://localhost:3000) in your browser
 
 ## License
 
